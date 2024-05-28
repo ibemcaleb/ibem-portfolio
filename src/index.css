@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&effect=3d');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  padding: 0;
+}
+
+.Header {
+  /* border: 5px solid red; */
+  background-color: #ffffff;
+  padding: 0 100px;
+  margin-bottom: 10px;
+  min-height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 28px;
+  font-family: 'Poppins' sans-serif;
+  color: #120a8f;
+}
+
+.bar-times {
+  color: #120a8f;
+  font-size: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.nav {
+  width: fit-content;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu {
+  color: #120a8f;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.menu::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #0054b4;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.5s;
+}
+
+.menu:hover::after {
+  width: 100%;
+}
+
+.Home {
+  height: 85vh;
+  background-color: black;
+  position: relative;
+}
+
+.profile-img {
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caleb-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 100px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  /* font-size: 60PX; */
+  /* font-weight: 900; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hire-me {
+  font-size: 40px;
+  text-decoration: none;
+  background-color: #120a8f;
+  color: #FFFFFF;
+  width: fit-content;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+.hire-me:hover {
+  background-color: #0054b4;
+}
+
+.Stack {
+  border: none;
+}
+
+.Stack h1 {
+  padding: 80px 100px 0;
+  text-align: center;
+}
+
+.skills {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 100px;
+}
+
+.skill-div {
+  /* border: 5px solid blue; */
+  width: 300px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  transition: transform 1s;
+}
+
+.skill-div:hover {
+  transform: scale(1.1);
+} 
+
+.skill-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Projects {
+  /* border: 5px solid yellow; */
+  padding: 80px 0 0;
+}
+
+.Projects h1 {
+  padding: 0 100px 20px;
+  text-align: center;
+}
+
+.project-menu {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 40px;
+  padding: 0 100px;
+}
+
+.project-card {
+  /* border: 2px solid blue; */
+  width: 350px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.project-img-div {
+  /* border: 2px solid red; */
+  height: 150px;
+  border-radius: 11px 11px 0 0;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 11px 11px 0 0;
+}
+
+.project-card h4, .project-card h5 {
+  margin-bottom: 10px;
+}
+
+.project-card ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+.project-card span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card a {
+  text-decoration: none;
+  background-color: #0054b4;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px 0 0;
+  border-radius: 5px;
+}
+
+.project-card h5 {
+  color: #120a8f;
+}
+
+.project-description {
+  font-size: 14px;
+}
+
+.Footer {
+  border-top: 1px solid rgba(0, 84, 180, 0.5);
+  background-color: rgba(0, 84, 180, 0.1);
+  padding: 20px 100px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.footer-contact {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-contact span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-contact span svg {
+  color: #0054b4;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-social svg {
+  color: #0054b4;
+  font-size: 20px;
+}
+
+/* TABLET VIEW CSS SETTINGS */
+@media only screen and (max-width: 900px) {
+  .Header {
+    padding: 0 30px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .profile-container {
+    padding: 0 30px;
+    font-size: 30px;
+  }
+
+  .profile-wrapper {
+    flex-direction: column;
+  }
+
+  .hire-me {
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+
+  .Stack h1 {
+    padding: 50px 30px 0;
+  }
+
+  .skills {
+    padding: 50px 30px;
+  }
+
+  .project-menu {
+    padding: 0 30px;
+  }
+
+  .Projects h1 {
+    padding: 0 30px 20px;
+  }
+
+  .Footer {
+    padding: 20px 30px;
+  }
+}
+
+
+/* MOBILE VIEW CSS SETTINGS */
+@media only screen and (max-width: 600px) {
+  .Header {
+    padding: 0 15px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .bar-times {
+    display: block;
+  }
+
+  .nav {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 0;
+    position: absolute;
+    right: 1000px;
+    top: 15vh;
+    z-index: 1000;
+    background-color: #120a8f;
+    transition: right 0.5s;
+  }
+
+  .menu {
+    color: #FFFFFF;
+  }
+
+  .nav.show {
+    right: 0;
+  }
+  
+  .nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-container {
+    padding: 0 15px;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .profile-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .profile-text {
+    order: 1;
+  }
+
+  /* .profile-photo {
+    order: 0;
+  } */
+
+  .hire-me {
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+
+  .Stack h1 {
+    padding: 100px 15px 0;
+    font-size: 25px;
+  }
+
+  .skills {
+    padding: 50px 15px;
+  }
+
+  .project-menu {
+    padding: 0 15px;
+  }
+
+  .Projects h1 {
+    padding: 0 15px 20px;
+  }
+
+  .project-card a {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .Footer {
+    padding: 20px 15px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-contact {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+}

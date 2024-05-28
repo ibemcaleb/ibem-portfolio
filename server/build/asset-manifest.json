@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23ac0b77.css",
+    "main.js": "/static/js/main.6829db7c.js",
+    "static/media/img22.jpg": "/static/media/img22.fb18a28d2fb19293f8e1.jpg",
+    "static/media/img2.jpg": "/static/media/img2.6c29f2c4edfed876a01d.jpg",
+    "static/media/caleb_cv.pdf": "/static/media/caleb_cv.9d08f360eb5ead77e4c0.pdf",
+    "static/media/img1.jpg": "/static/media/img1.eb491a1ea4d844b7dd59.jpg",
+    "static/media/nodejs.png": "/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
+    "static/media/mongodb.png": "/static/media/mongodb.41e505b098e3087319b8.png",
+    "static/media/html5.png": "/static/media/html5.c4d9c8dcdf4078875355.png",
+    "static/media/express.png": "/static/media/express.304b141b6c72993d3aad.png",
+    "static/media/redux.png": "/static/media/redux.ba0a91a0e07559aa60e9.png",
+    "static/media/mongoose.png": "/static/media/mongoose.91be34a5226500b1eeed.png",
+    "static/media/reactjs.png": "/static/media/reactjs.b694edfcf1570c78ac4b.png",
+    "static/media/graphql.png": "/static/media/graphql.0201ad68ec20503d5caa.png",
+    "static/media/css3.png": "/static/media/css3.6402b604475346c0ff73.png",
+    "static/media/nextjs.jpg": "/static/media/nextjs.3e08a8dea4b361a458a4.jpg",
+    "index.html": "/index.html",
+    "main.23ac0b77.css.map": "/static/css/main.23ac0b77.css.map",
+    "main.6829db7c.js.map": "/static/js/main.6829db7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ac0b77.css",
+    "static/js/main.6829db7c.js"
+  ]
+}
