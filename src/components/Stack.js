@@ -11,6 +11,9 @@ import mongoose from '../images/mongoose.png'
 import jest from '../images/jest.png'
 import restapi from '../images/rest-api-1.svg'
 import ts from '../images/ts.png'
+import nextjs from '../images/nextjs.jpg'
+import tailwind from '../images/tailwind.png'
+import bootstrap from '../images/bootstrap.jpeg'
 
 const Stack = () => {
     const skills = [
@@ -73,6 +76,21 @@ const Stack = () => {
             id: 12,
             url: restapi,
             title: "restapi"
+        },
+        {
+            id: 13,
+            url: nextjs,
+            title: "nextjs"
+        },
+        {
+            id: 14,
+            url: tailwind,
+            title: "tailwind"
+        },
+        {
+            id: 15,
+            url: bootstrap,
+            title: "bootstrap"
         },
     ]
     
