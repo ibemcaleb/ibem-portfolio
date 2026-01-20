@@ -91,6 +91,11 @@ body {
   border: 5px solid red;
 }
 
+.extra {
+  position: relative;
+  border: 5px solid green;
+}
+
 .profile-img {
   opacity: 0.3;
   width: 100%;

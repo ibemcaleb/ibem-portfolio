@@ -5,7 +5,8 @@ import caleb from '../images/caleb.jpg'
 const Home = () => {
   return (
     <div className='Home' id='home'>
-        <img src={dev} alt="developer" className='profile-img' />
+        <div className='extra'>
+          <img src={dev} alt="developer" className='profile-img' />
         <div className='profile-container'>
             <div className="profile-wrapper">
               <div className="profile-text">
@@ -21,6 +22,7 @@ const Home = () => {
               </div>
             </div>
               <a href="#contact" className='hire-me'>Hire Me</a>
+        </div>
         </div>
     </div>
   )
