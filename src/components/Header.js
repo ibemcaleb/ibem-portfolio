@@ -15,7 +15,7 @@ const Header = () => {
     <div className='Header'>
         <a href='#home' className='logo effect-3d'>Caleb Ibem</a>
         <div className="header-contact">
-            <span><FaPhoneAlt /> 08166558072</span>
+            <span><FaPhoneAlt /> +234 803 388 6920</span>
         </div>
         <div className="bar-times" onClick={handleMenu}>
             {barTimes ? <FaBars /> : <FaTimes />}

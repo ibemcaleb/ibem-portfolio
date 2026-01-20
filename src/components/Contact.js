@@ -58,7 +58,7 @@ const Contact = () => {
             <h2>Contact Information</h2>
             <span>
                 <FaPhone />
-                <p>+234 816 655 8072</p>
+                <p>+234 803 388 6920</p>
             </span>
             <span>
                 <FaEnvelope />

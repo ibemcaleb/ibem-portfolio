@@ -13,10 +13,10 @@ import restapi from '../images/rest-api-1.svg'
 import ts from '../images/ts.png'
 import nextjs from '../images/nextjs.jpg'
 import tailwind from '../images/tailwind.png'
-import bootstrap from '../images/bootstrap.jpeg'
+// import bootstrap from '../images/bootstrap.jpeg'
 import git from '../images/git.png'
-import sql from '../images/sql.png'
-import aws from '../images/aws.png'
+// import sql from '../images/sql.png'
+// import aws from '../images/aws.png'
 
 const Stack = () => {
     const skills = [
@@ -90,26 +90,26 @@ const Stack = () => {
             url: tailwind,
             title: "tailwind"
         },
-        {
-            id: 15,
-            url: bootstrap,
-            title: "bootstrap"
-        },
+        // {
+        //     id: 15,
+        //     url: bootstrap,
+        //     title: "bootstrap"
+        // },
         {
             id: 16,
             url: git,
             title: "git"
         },
-        {
-            id: 17,
-            url: sql,
-            title: "sql"
-        },
-        {
-            id: 18,
-            url: aws,
-            title: "aws"
-        },
+        // {
+        //     id: 17,
+        //     url: sql,
+        //     title: "sql"
+        // },
+        // {
+        //     id: 18,
+        //     url: aws,
+        //     title: "aws"
+        // },
     ]
     
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import proj1 from '../images/img1.jpg'
-// import proj2 from '../images/hero0.jpg'
+import proj2 from '../images/elyovel.webp'
 import proj3 from '../images/nil.jpg'
 import proj4 from '../images/crud.jpeg'
 
@@ -15,15 +15,15 @@ const Projects = () => {
             demo: "https://emoil.com.ng/",
             source: "www.source.com"
         },
-        // {
-        //     id: 2,
-        //     url: proj2,
-        //     title: "Decency Taju Ventures",
-        //     description: "Decency Taju Ventures is a company into production of school wears. I created the website following best practices and utilizing modern tech stacks.",
-        //     stack: ["HTML", "CSS", "Javascript", "React", "Node Js", "Express Js"],
-        //     demo: "https://decencytaju.com/",
-        //     source: "www.source.com"
-        // },
+        {
+            id: 2,
+            url: proj2,
+            title: "Elyovels International Academy",
+            description: "Elyovels International Academy is an excellent basic educational institution aimed at providing quality education at affordable cost. It is a place where young innocent citizens are groomed not just to be academically sound but to be valuable and responsible citizens to influence and impact society positively.",
+            stack: ["CSS", "Javascript", "TypeScript", "React.js", "Next.js", "Node.js", "Express.js"],
+            demo: "https://elyovelsacademy.com/",
+            source: "www.source.com"
+        },
         {
             id: 3,
             url: proj3,
