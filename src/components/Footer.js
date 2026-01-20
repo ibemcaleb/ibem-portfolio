@@ -1,12 +1,12 @@
 import React from 'react'
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithubSquare } from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin, FaGithubSquare, FaPhoneAlt } from 'react-icons/fa'
 
 const Footer = () => {
   return (
     <div className='Footer'>
         <div className="footer-contact">
             <span>
-                <FaPhone />
+                <FaPhoneAlt />
                 <p>+234 803 388 6920</p>
             </span>
             <span>

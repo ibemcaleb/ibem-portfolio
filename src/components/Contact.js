@@ -1,6 +1,6 @@
 // import React, {useState} from 'react'
 import '../contact.css'
-import { FaEnvelope, FaPhone, FaSearchLocation } from 'react-icons/fa'
+import { FaEnvelope, FaPhoneAlt, FaSearchLocation } from 'react-icons/fa'
 // import { FaUserAlt, FaTimes } from 'react-icons/fa'
 // import { GiEnvelope } from 'react-icons/gi'
 // import { IoLocation } from 'react-icons/io'
@@ -57,7 +57,7 @@ const Contact = () => {
         <div className="contact-info">
             <h2>Contact Information</h2>
             <span>
-                <FaPhone />
+                <FaPhoneAlt />
                 <p>+234 803 388 6920</p>
             </span>
             <span>

@@ -5,7 +5,6 @@ import caleb from '../images/caleb.jpg'
 const Home = () => {
   return (
     <div className='Home' id='home'>
-        <div className='extra'>
           <img src={dev} alt="developer" className='profile-img' />
         <div className='profile-container'>
             <div className="profile-wrapper">
@@ -17,12 +16,11 @@ const Home = () => {
                 <p>Tech Stack: React, Next.js, Node.js, Express.js, TypeScript, MongoDB, Mongoose, Git.</p>&nbsp;
                 <p>Open to FullStack Engineer, Backend Engineer, Frontend Engineer roles where I can contribute to building impactful, scalable digital products.</p>
               </div>
-              <div className="profile-photo">
+              {/* <div className="profile-photo"> */}
                   <img src={caleb} alt="caleb" className='caleb-photo' />
-              </div>
+              {/* </div> */}
             </div>
               <a href="#contact" className='hire-me'>Hire Me</a>
-        </div>
         </div>
     </div>
   )
