@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ibem-portfolio/static/css/main.0b9c0adc.css",
-    "main.js": "/ibem-portfolio/static/js/main.7ac6e61e.js",
+    "main.css": "/ibem-portfolio/static/css/main.fd647d3d.css",
+    "main.js": "/ibem-portfolio/static/js/main.cda78f18.js",
     "static/media/img22.jpg": "/ibem-portfolio/static/media/img22.fb18a28d2fb19293f8e1.jpg",
     "static/media/img1.jpg": "/ibem-portfolio/static/media/img1.eb491a1ea4d844b7dd59.jpg",
     "static/media/CALEB_RESUME.pdf": "/ibem-portfolio/static/media/CALEB_RESUME.6b8b2d65c359cdba2ff2.pdf",
@@ -19,11 +19,11 @@
     "static/media/nextjs.jpg": "/ibem-portfolio/static/media/nextjs.3e08a8dea4b361a458a4.jpg",
     "static/media/rest-api-1.svg": "/ibem-portfolio/static/media/rest-api-1.425e55536026d5ecc060592f713154ac.svg",
     "index.html": "/ibem-portfolio/index.html",
-    "main.0b9c0adc.css.map": "/ibem-portfolio/static/css/main.0b9c0adc.css.map",
-    "main.7ac6e61e.js.map": "/ibem-portfolio/static/js/main.7ac6e61e.js.map"
+    "main.fd647d3d.css.map": "/ibem-portfolio/static/css/main.fd647d3d.css.map",
+    "main.cda78f18.js.map": "/ibem-portfolio/static/js/main.cda78f18.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b9c0adc.css",
-    "static/js/main.7ac6e61e.js"
+    "static/css/main.fd647d3d.css",
+    "static/js/main.cda78f18.js"
   ]
 }
