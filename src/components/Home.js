@@ -11,7 +11,7 @@ const Home = () => {
               <div className="profile-text">
                 <h1>About Me</h1><br />
                 <p>Full Stack Engineer with 5+ years of experience building and deploying scalable web applications using React.js, Next.js, Node.js, Express.js, and RESTful APIs. Strong background in developing secure backend services, integrating databases, and delivering responsive, user-focused frontend interfaces.
-                  </p>&nbsp;
+                  </p><br />
                 <p>Experienced in working across the full development lifecycle—from requirements gathering to deployment and optimization—on production systems. Comfortable collaborating with cross-functional teams and translating business needs into reliable technical solutions.</p>&nbsp;
                 <p>Tech Stack: React, Next.js, Node.js, Express.js, TypeScript, MongoDB, Mongoose, Git.</p>&nbsp;
                 <p>Open to FullStack Engineer, Backend Engineer, Frontend Engineer roles where I can contribute to building impactful, scalable digital products.</p>
